@@ -154,3 +154,6 @@ class Review:
         """
         rows = CURSOR.execute(sql).fetchall()
         return [cls.instance_from_db(row) for row in rows]
+
+
+        
